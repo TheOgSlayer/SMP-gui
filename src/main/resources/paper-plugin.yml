@@ -1,0 +1,12 @@
+name: JalebiSMP
+version: 1.0.0
+main: com.jalebi.smp.JalebiSMP
+bootstrapper: com.jalebi.smp.JalebiBootstrap
+api-version: '1.21.8'
+description: Jalebi SMP menu (pause-menu button + /smp)
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: false
+      join-classpath: true
